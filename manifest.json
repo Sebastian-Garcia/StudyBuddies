@@ -1,0 +1,26 @@
+{
+    "name": "StudyBuddies",
+    "description": "Ask for help from people studying on the same webpage as you!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "chatbox.html",
+        "default_icon": "study_icon.png"
+    },
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+U",
+                "mac": "MacCtrl+Shift+U"
+            },
+            "description": "Opens chatbox.html"
+        }
+    },
+    "host_permissions": [
+        "http://localhost/*"
+    ],
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ]
+}

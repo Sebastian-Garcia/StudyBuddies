@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="chatbox.css">
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+        
+        <script src="popup.js" defer></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="chathead">StudyBuddies Chatbox! <br><br></div>
+            <div id="chatdisplay" style="overflow:scroll;">Start Chatting!<br></div>
+            <div id="chatfooter">
+                <form action="http://localhost/Test/index.php" method="POST">
+                    <label for="submitBtn">Chat here! :)</label>
+                    <input type="text" id="text" name="text" autocomplete="off">
+                    <input type="submit" id="submitBtn" value="Send">
+                </form>
+            </div>
+        </div>
+       <!-- <script src="chatbox.js"></script> -->
+    </body>
+</html>
